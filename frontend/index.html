@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recommendation Widget</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Recommendation Widget</h1>
+    <div id="widget-container"></div>
+  </div>
+  <!-- frontend/index.html -->
+    <form id="widget-customization-form">
+        <label for="numItems">Number of items:</label>
+        <input type="number" id="numItems" name="numItems" value="5" min="1" max="10">
+        
+        <label for="bgColor">Background Color:</label>
+        <input type="color" id="bgColor" name="bgColor" value="#ffffff">
+        
+        <button type="submit">Apply Customization</button>
+    </form>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
