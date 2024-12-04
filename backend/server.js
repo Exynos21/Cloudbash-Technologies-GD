@@ -22,7 +22,7 @@ const widgets = {
         "padding": "10px"
       }
     },
-    "apiEndpoint": "https://www.myntra.com/gateway/product/31602544/size/recommendation"
+    "apiEndpoint": "https://www.myntra.com/gateway/v2/product/31602544/related"
   },
   "customers-also-liked": {
     "type": "customers-also-liked",
@@ -36,7 +36,7 @@ const widgets = {
         "padding": "8px"
       }
     },
-    "apiEndpoint": "https://www.myntra.com/gateway/product/31602544/size/recommendation"
+    "apiEndpoint": "https://www.myntra.com/gateway/v2/product/31602544/related"
   }
 };
 
